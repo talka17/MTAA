@@ -1,0 +1,35 @@
+20:07:15:INFO:Wed, 23 Feb 2022 20:07:15 
+20:07:15:INFO:TalkinNB
+20:07:15:INFO:192.168.56.1
+20:07:17:INFO:>>> INVITE sip:Talka@192.168.56.1 SIP/2.0
+20:07:17:INFO:<<< SIP/2.0 400 Bad Request
+20:07:17:INFO:>>> ACK sip:Talka@192.168.56.1 SIP/2.0
+20:07:17:INFO:destination Talka@192.168.56.1
+20:07:19:INFO:>>> REGISTER sip:10.10.27.96 SIP/2.0
+20:07:19:INFO:From: Sedka@10.10.27.96 - Contact: 10.10.38.107:50704
+20:07:19:INFO:<<< SIP/2.0 200 Preslo v poriadku
+20:07:21:INFO:>>> REGISTER sip:192.168.56.1 SIP/2.0
+20:07:21:INFO:From: Talka@192.168.56.1 - Contact: 192.168.56.1:55006
+20:07:21:INFO:<<< SIP/2.0 200 Preslo v poriadku
+20:07:21:INFO:>>> PUBLISH sip:Talka@192.168.56.1 SIP/2.0
+20:07:21:INFO:<<< SIP/2.0 200 Preslo v poriadku
+20:07:23:INFO:>>> INVITE sip:Sedka@10.10.27.96 SIP/2.0
+20:07:23:INFO:destination Sedka@10.10.27.96
+20:07:23:INFO:<<< INVITE sip:Sedka@10.10.27.96 SIP/2.0
+20:07:23:INFO:>>> SIP/2.0 100 Trying
+20:07:23:INFO:<<< SIP/2.0 100 Trying
+20:07:23:INFO:>>> SIP/2.0 180 Ringing
+20:07:23:INFO:<<< SIP/2.0 180 Ringing
+20:07:26:INFO:>>> SIP/2.0 200 Ok
+20:07:26:INFO:<<< SIP/2.0 200 Ok
+20:07:27:INFO:>>> ACK sip:Sedka@10.10.38.107:50704;pn-prid=48531C9867743AD225127E97D11DC12E8BABC5D41770DC42F33B26B7195D43A9:voip&DF2EA878891C912F35A44E3DBBDDA5A5371A7B667D21CE4ED6A7904257490598:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:07:27:INFO:destination Sedka@10.10.27.96
+20:07:27:INFO:<<< ACK sip:Sedka@10.10.38.107:50704;pn-prid=48531C9867743AD225127E97D11DC12E8BABC5D41770DC42F33B26B7195D43A9:voip&DF2EA878891C912F35A44E3DBBDDA5A5371A7B667D21CE4ED6A7904257490598:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:07:38:INFO:>>> BYE sip:Sedka@10.10.38.107:50704;pn-prid=48531C9867743AD225127E97D11DC12E8BABC5D41770DC42F33B26B7195D43A9:voip&DF2EA878891C912F35A44E3DBBDDA5A5371A7B667D21CE4ED6A7904257490598:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:07:38:INFO:destination Sedka@10.10.27.96
+20:07:38:INFO:<<< BYE sip:Sedka@10.10.38.107:50704;pn-prid=48531C9867743AD225127E97D11DC12E8BABC5D41770DC42F33B26B7195D43A9:voip&DF2EA878891C912F35A44E3DBBDDA5A5371A7B667D21CE4ED6A7904257490598:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:07:39:INFO:>>> SIP/2.0 200 Ok
+20:07:39:INFO:<<< SIP/2.0 200 Ok
+20:15:43:INFO:>>> REGISTER sip:10.10.27.96 SIP/2.0
+20:15:43:INFO:From: Sedka@10.10.27.96 - Contact: 10.10.38.107:60304
+20:15:43:INFO:<<< SIP/2.0 200 Preslo v poriadku
