@@ -1,4 +1,5 @@
 import sipfullproxy
+import time
 
 def start_proxy():
     #get my ip address of proxy
@@ -14,5 +15,6 @@ def start_proxy():
 
 if __name__ == "__main__":
     print("Proxy is starting...")
+    time.sleep(2)
     start_proxy()
     
